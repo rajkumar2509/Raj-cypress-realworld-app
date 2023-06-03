@@ -5,3 +5,4 @@ Framework used: BDD(Cucumber with Junit)
 Public Github repository created kindly clone repository
 Import the project in Eclipse and run through TestRunnerClass or can integerated with Jenkins
 Project has been automated. For reports please check the target folder for cucumber html reports in detail
+Kindly check Git conflict image for your reference
