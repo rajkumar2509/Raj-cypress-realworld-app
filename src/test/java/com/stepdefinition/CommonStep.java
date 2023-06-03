@@ -17,6 +17,8 @@ public class CommonStep extends BaseClass{
 		WebElement txtUserVerifyMsg = pom.getAuthorizationPage().getTxtUserVerifyMsg();
 		String actUserVerifyMsg = elementGetText(txtUserVerifyMsg);
 		boolean containsUserVerifyMsg = actUserVerifyMsg.contains(expUserNameMsg);
+		System.out.println(containsUserVerifyMsg);
 		Assert.assertTrue("Verify user name msg after signin", containsUserVerifyMsg);
 	}
+	
 }
