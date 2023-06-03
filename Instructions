@@ -1,0 +1,7 @@
+Software used: Eclipse-Version: Oxygen.3a Release (4.7.3a)
+Execution environment: Installed JREs - jre1.8.0_202
+Language used: Selenium
+Framework used: BDD(Cucumber with Junit)
+Public Github repository created kindly clone repository
+Import the project in Eclipse and run through TestRunnerClass or can integerated with Jenkins
+Project has been automated. For reports please check the target folder for cucumber html reports in detail
