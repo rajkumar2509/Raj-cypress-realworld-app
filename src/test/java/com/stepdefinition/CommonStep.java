@@ -18,5 +18,6 @@ public class CommonStep extends BaseClass{
 		String actUserVerifyMsg = elementGetText(txtUserVerifyMsg);
 		boolean containsUserVerifyMsg = actUserVerifyMsg.contains(expUserNameMsg);
 		Assert.assertTrue("Verify user name msg after signin", containsUserVerifyMsg);
+		System.out.println(actUserVerifyMsg);
 	}
 }
